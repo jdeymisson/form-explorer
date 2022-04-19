@@ -1,0 +1,177 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, legend, button {
+  font-family: 'Staatliches', cursive;
+}
+
+input, label, span, p {
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background: #EFEFEF;
+}
+
+body::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  width: 100%;
+  height: 436px;
+
+  background: #535971;
+
+  z-index: -1;
+}
+
+.container {
+  width: 750px;
+
+  margin: auto;
+}
+
+header {
+  width: 417px;
+
+  margin-top: 140px;
+}
+
+header h1 {
+  font-size: 48px;
+  font-weight: normal;
+  line-height: 60px;
+  color: #fff;
+}
+
+header p {
+  color: #fff;
+  font-size: 20px;
+  line-height: 30px;
+
+  margin: 18px 0 48px 0;
+}
+
+form {
+  background: #fff;
+
+  padding: 64px;
+
+  border-radius: 20px 20px 0 0;
+
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+form fieldset {
+  border: none;
+}
+
+form .fieldset-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+form legend {
+  font-size: 24px;
+  line-height: 34px;
+  color: #535971;
+
+  border-bottom: 1px solid #E6E6F0;
+  
+  padding-bottom: 16px;
+  margin-bottom: 36px;
+}
+
+.input-container {
+  display: flex;
+  gap: 22px;
+}
+
+.input-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+
+  width: 100%;
+}
+
+
+.input-wrapper label {
+  font-size: 14px;
+  line-height: 24px;
+
+  color: #4E4958;
+}
+
+.input-wrapper span {
+  font-size: 12px;
+  line-height: 20px;
+  color: #6c6874;
+}
+
+.input-wrapper input {
+  background: #FAFAFC;
+
+  height: 56px;
+
+  border: 1px solid #E6E6F0;
+  box-sizing: border-box;
+  border-radius: 8px;
+
+  font-size: 14px;
+  padding: 8px;
+}
+
+form h2 {
+font-weight: normal;
+font-size: 20px;
+line-height: 34px;
+
+color: #535971;
+}
+
+#mentorship-date {
+  display: flex;
+  gap: 32px;
+}
+
+#mentorship-date > div:nth-child(2) {
+  width: 100%;
+}
+
+footer {
+  height: 160px;
+
+  padding: 52.67px 71px;
+  background: #535971;
+  border-radius: 0px 0px 20px 20px;
+  
+  margin-bottom: 200px;
+}
+
+footer button {
+  width: 100%;
+  background: #FF5374;
+  padding: 15px 40px;
+  border: none;
+  border-radius: 20px;
+
+  color: #fff;
+  font-size: 24px;
+
+  transition: all .5s ease;
+}
+
+footer button:hover {
+  background: #da4562;
+}
+
+
