@@ -1,5 +1,5 @@
 # 
-<h1 align="center" >Form Explorer ⏱ </h1>
+<h1 align="center" >Form Explorer 📋 </h1>
 
 ## 📕 Sobre
 Esse projeto é um dos desafios proposto pelo treinamento da Rocketseat Explorer, nele os requisistos de aplicação era:
